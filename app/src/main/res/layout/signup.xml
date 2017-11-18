@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E7D32"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Name"
+            android:layout_marginTop="24dp"
+            android:layout_weight="1"
+            android:id="@+id/fname"
+            android:background="#2E7D32"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name"
+            android:layout_marginTop="24dp"
+            android:layout_weight="1"
+            android:id="@+id/lname"
+            android:background="#2E7D32"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:id="@+id/mail"
+            android:layout_marginTop="24dp"
+            android:background="#2E7D32" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:id="@+id/pass"
+            android:background="#2E7D32" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:hint="Re-enter password"
+            android:inputType="textPassword"
+            android:id="@+id/repass"
+            android:background="#2E7D32"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Sign Up"
+            android:layout_marginTop="24dp"
+            android:textColor="@android:color/white"
+            android:background="#A5D6A7"
+            android:id="@+id/signup"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

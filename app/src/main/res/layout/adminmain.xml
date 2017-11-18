@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E7D32">
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:src="@drawable/checklist"
+        android:id="@+id/checklist"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:src="@drawable/check_name"
+        android:id="@+id/checkname"
+        android:layout_below="@+id/checklist"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:src="@drawable/check_detail"
+        android:id="@+id/checkdetail"
+        android:layout_below="@+id/checkname"
+        android:layout_alignEnd="@+id/logout"
+        android:layout_marginTop="25dp" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:src="@drawable/update"
+        android:id="@+id/update"
+        android:layout_below="@+id/checkdetail"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:src="@drawable/logout_"
+        android:id="@+id/logout"
+        android:layout_below="@+id/update"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="33dp" />
+
+
+</RelativeLayout>
